@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AlbumListComponent } from './albums/album-list/album-list.component';
 import { HelloUserComponent } from './hello-user/hello-user.component';
 import { AlbumCardComponent } from './albums/album-card/album-card.component';
+import { ReverseStrPipe } from './reverse-str.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     AlbumListComponent,
     HelloUserComponent,
-    AlbumCardComponent
+    AlbumCardComponent,
+    ReverseStrPipe
   ],
   imports: [
     BrowserModule,
